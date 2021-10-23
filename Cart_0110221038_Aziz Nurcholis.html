@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HalamanCart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <style>
+        *{
+            margin: 0; 
+            padding:0 ;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header style="padding: 50px 50px; display: flex; background-color: rgb(186, 191, 196);">
+        <div style="width: 15%;">
+            <p class="bi bi-apple"> Azizshop.id</p>
+        </div>
+        <div style="width: 45%;">
+            <ul style="display: flex;">
+                <li style="list-style: none; margin-right: 10px;"><a href="https://shopee.co.id/search?keyword=Baju">Baju</a></li>
+                <li style="list-style: none; margin-right: 10px;">|</li>
+                <li style="list-style: none; margin-right: 10px;"><a href="https://shopee.co.id/search?keyword=Celana">Celana</a></li>
+                <li style="list-style: none; margin-right: 10px;">|</li>
+                <li style="list-style: none; margin-right: 10px;"><a href="https://shopee.co.id/search?keyword=Jaket">Jaket</a></li>
+            </ul>
+        </div>
+        <div style="display; width: 40%; text-align: end;">
+            <p>
+                <i class="bi bi-search"></i>
+                <i class="bi bi-cart-fill"></i> Cart(1)
+            </p>
+        </div>
+    </header>
+    <section style="padding: 40px 50px; display: flex;">
+        <div style="width: 70%;">
+            <div>
+                <h3 style="padding-left: 0;">Your Cart</h3>
+                <table style="width: 100%; height: auto; padding-left: 0; padding-right: 40px;">
+                    <tr style="text-align: left; border: 1px solid; padding: 10px;">
+                        <th style="border: 1px solid; border-right: none; border-left: none;">Item</th>
+                        <th style="border: 1px solid; border-left: none; border-right: none; ">Price</th>
+                        <th style="border: 1px solid; border-right: none; border-left: none;">Quantity</th>
+                    </tr>
+                    <tr style="padding: 10px;">
+                        <td style="padding-top: 50px; padding-bottom: 50px;"><img src="img/images.jpeg" style="width: 50px;"/><span>T-Shirt</span></td>
+                        <td>$20.00</td>
+                        <td><form action="">
+                            <select id="cars" name="cars">
+                              <option value="volvo">1</option>
+                              <option value="saab">2</option>
+                              <option value="fiat">3</option>
+                              <option value="audi">4</option>
+                            </select>
+                          </form></td>
+                    </tr>
+                    <tr style="padding: 10px;">
+                        <td colspan="3" style="text-align: end; border: 1px solid; border-left: none; border-right: none;">Sub Total $20.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div style="width: 20% 0; padding: 0 50px;">
+            <div style="padding: 40px; background-color: rgb(186, 191, 196);">
+                <table style="width: 100%;">
+                    <tr>
+                        <td><b>Summary (1 Item)</b></td>
+                    </tr>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td style="text-align: right;">$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td style="text-align: right;">-</td>
+                    </tr>
+                    <tr>
+                        <td>Est. taxes</td>
+                        <td style="text-align: right;">-</td>
+                    </tr>
+                </table>
+                <hr>
+                <p style="margin: 8px 0;"><b>Total</b></p>
+                <td colspan="2" style="text-align: center;"><button align="center" style="width: 100%; background-color: blue;"><b style="color: white;">Checkout</b></button></td>
+            </div>
+        </div>
+    </section>
+    <footer style="margin-top: 300px;">
+        <div class="div" style="padding: 10px 60px; display: flex;">
+            <div style="width: 15%;">
+                <p class="bi bi-apple"> Azizshop.id</p>
+            </div>
+            <div style="width: 35%;">
+                <ul style="display: flex;">
+                    <li style="list-style: none; margin-right: 10px;"><a href="">Baju</a></li>
+                    <li style="list-style: none; margin-right: 10px;">|</li>
+                    <li style="list-style: none; margin-right: 10px;"><a href="">celana</a></li>
+                    <li style="list-style: none; margin-right: 10px;">|</li>
+                    <li style="list-style: none; margin-right: 10px;"><a href="">Jaket</a></li>
+                </ul>
+            </div>
+            <div style="display; width: 50%; text-align: end;">
+                <p>Stay In Touch! Join ourNewsletter </p>
+            </div>
+        </div>
+        <div style="padding: 0 4%; display: flex;">
+            <div>
+                <img src="img/download.jpeg" alt="" style="height: 25px;">
+            </div>    
+            <div style="display; width: 100%; text-align: end;">
+                <input type="text" placeholder="Enter Email" style="padding: 3px;">
+                <button style="padding: 3px;">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
